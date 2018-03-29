@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper nameSpace="com.inthee.mapper.UserMapper">
+    <select id="getUserById" resultType="com.inthee.bean.User">
+        select * from user where id = ?
+    </select>
+</mapper>

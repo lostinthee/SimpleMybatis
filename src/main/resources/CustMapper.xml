@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper nameSpace="com.inthee.mapper.CustMapper">
+    <select id="getCustById" resultType="com.inthee.bean.Cust">
+        select * from cust where id = ?
+    </select>
+</mapper>
